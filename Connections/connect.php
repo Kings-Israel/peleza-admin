@@ -2,7 +2,7 @@
 
 // $configs = parse_ini_file("/var/www/html/pidva/config/config.ini", true);
 $configs = parse_ini_file("config.ini", true);
-$configs = $configs['database_localhost'];
+$configs = $configs['database'];
 date_default_timezone_set('Africa/Nairobi');
 
 $hostname_connect = $configs['host'];
